@@ -2,3 +2,17 @@
 Project Name: Influencer Gear
 Developer Name: Shariar Arefin
 *************************/
+/********* Tablet Query******/
+@media (min-width:769px) and (max-width: 992px) {  
+
+}
+@media (min-width: 577px) and (max-width: 768px){
+
+}
+/********* Tablet Query******/
+/********* Mobile Query******/
+@media screen and (max-width:576px){
+    .shop-product{
+        grid-template-columns: repeat(1,1fr);       
+    }
+}
